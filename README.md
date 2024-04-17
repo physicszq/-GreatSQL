@@ -1,5 +1,6 @@
 我的环境是WSL2装的Ubuntu22-04
-1 从github上下载源码并解压, git clone 使用hhttps协议握手不成功，我重新配置了ssh协议，比较方便
+1 从github上下载源码并解压, git clone 使用https协议握手不成功，我重新配置了ssh协议，比较方便
+    
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     
     cat ~/.ssh/id_rsa.pub 复制公钥贴到自己github账号中的ssh-key里面(新建一个)
