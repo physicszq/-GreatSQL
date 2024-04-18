@@ -31,9 +31,11 @@
 手动下载两个关联repo
 
 5 ~/GreatSQL/extra$ rm -rf ./libkmip/
+ 
   ~/GreatSQL/extra$ git clone --depth=1 git@github.com:Percona-Lab/libkmip.git
   
 6 ~/GreatSQL/extra$ rm -rf ./coredumper/
+  
   ~/GreatSQL/extra$ git clone --depth=1 git@github.com:Percona-Lab/coredumper.git
   
 ```
