@@ -2,9 +2,9 @@
 
 下载最新的版本v8.0.32.25,修改源码
 
-~~ ~/GreatSQL/storage/perfschema/pfs_dd_version.h:236  static const uint PFS_DD_VERSION = 80032;  <-- 80025  ~~
+~~/GreatSQL/storage/perfschema/pfs_dd_version.h:236  static const uint PFS_DD_VERSION = 80032;  <-- 80025~~
 
-~~ ~/GreatSQL/sql/dd/info_schema/metadata.h:241        static const uint IS_DD_VERSION = 80030;   <-- 80023  ~~
+~~/GreatSQL/sql/dd/info_schema/metadata.h:241        static const uint IS_DD_VERSION = 80030;   <-- 80023~~
 
 1 从github上下载源码并解压, git clone 使用https协议握手不成功，我重新配置了ssh协议，比较方便,开始以为是下载的代码和clone的不太一样，后面发现是一样的，可以直接下载更省事 (就无需下面配置ssh的步骤)
     
